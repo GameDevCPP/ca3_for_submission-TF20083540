@@ -1,0 +1,26 @@
+"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\20083540\Documents\College\Year 4\Game Development in C++\20083540 - CA3\ca3_for_submission-TF20083540" -B "C:\Users\20083540\Documents\College\Year 4\Game Development in C++\20083540 - CA3\ca3_for_submission-TF20083540\cmake-build-debug"
+CMake Deprecation Warning at lib/sfml/CMakeLists.txt:5 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (VORBIS)
+  does not match the name of the calling package (Vorbis).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  lib/sfml/cmake/Modules/FindVorbis.cmake:25 (find_package_handle_standard_args)
+  lib/sfml/cmake/Macros.cmake:279 (find_package)
+  lib/sfml/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Resource source dir: C:/Users/20083540/Documents/College/Year 4/Game Development in C++/20083540 - CA3/ca3_for_submission-TF20083540/res
+Resource destination dir: $<TARGET_FILE_DIR:Drop_Pod>/res
+Resource destination dir: C:/Users/20083540/Documents/College/Year 4/Game Development in C++/20083540 - CA3/ca3_for_submission-TF20083540/cmake-build-debug/bin//res 
+-- Configuring done (0.4s)
+-- Generating done (0.3s)
+-- Build files have been written to: C:/Users/20083540/Documents/College/Year 4/Game Development in C++/20083540 - CA3/ca3_for_submission-TF20083540/cmake-build-debug
